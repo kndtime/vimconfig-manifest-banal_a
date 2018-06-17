@@ -15,5 +15,5 @@
 
   <project path=".vim" name="vim-pathogen" remote="vim-pathogen"/>
   <project path=".vim/bundle" name="vim-gitgutter" remote="vim-gitgutter"/>
-  <project path="vimrc" name="vimrc-banal_a" remote="vimrc-banal_a"/>
+  <project path="." name="vimrc-banal_a" remote="vimrc-banal_a" revision="vimrc_update"/>
 </manifest>
