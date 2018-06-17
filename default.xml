@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="vimconfig-manifest-banal_a"
-           fetch="ssh://git@github.com:kndtime/vimconfig-manifest-banal_a.git" />
+           fetch="ssh://banal_a@android-review.cri.epita.net:29418/vimconfig-manifest-banal_a" />
   <remote  name="vimrc-banal_a"
-           fetch="https://github.com/kndtime/" />
+           fetch="http://banal_a@android-review.cri.epita.net/" />
 
   <remote  name="vim-pathogen"
            fetch="https://github.com/tpope/" />
