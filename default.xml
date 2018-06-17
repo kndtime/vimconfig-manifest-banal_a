@@ -3,7 +3,7 @@
   <remote  name="vimconfig-manifest-banal_a"
            fetch="ssh://git@github.com:kndtime/vimconfig-manifest-banal_a.git" />
   <remote  name="vimrc-banal_a"
-           fetch="ssh://git@github.com:kndtime" />
+           fetch="https://github.com/kndtime/" />
 
   <remote  name="vim-pathogen"
            fetch="https://github.com/tpope/" />
