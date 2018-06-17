@@ -9,8 +9,8 @@
            remote="vimconfig-manifest-banal_a"
            sync-j="4" />
 
-  <project path=".vim/autoload" name="audoload" remote="vim-pathogen" revision="master"/>
-  <project path=".vim/CONTRIBUTING.markdown" name="CONTRIBUTING.markdown" remote="vim-pathogen" revision="master"/>
-  <project path=".vim/README.markdown" name="README.markdown" remote="vim-pathogen" revision="master"/>
+  <project path=".vim/autoload" name="blob/master/audoload" remote="vim-pathogen" revision="master"/>
+  <project path=".vim/CONTRIBUTING.markdown" name="blob/master/CONTRIBUTING.markdown" remote="vim-pathogen" revision="master"/>
+  <project path=".vim/README.markdown" name="blob/master/README.markdown" remote="vim-pathogen" revision="master"/>
 
 </manifest>
