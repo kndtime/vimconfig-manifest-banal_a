@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="vimconfig-manifest-banal_a"
-           fetch="https://github.com/kndtime/vimconfig-manifest-banal_a.git" />
+           fetch="ssh://git@github.com:kndtime/vimconfig-manifest-banal_a.git" />
+
   <remote  name="vim-pathogen"
-           fetch="https://github.com/tpope/vim-pathogen" />
+           fetch="https://github.com/tpope/" />
 
   <default revision="master"
            remote="vimconfig-manifest-banal_a"
            sync-j="4" />
 
-  <project path=".vim/autoload" name="blob/master/audoload" remote="vim-pathogen" revision="master"/>
-  <project path=".vim/CONTRIBUTING.markdown" name="blob/master/CONTRIBUTING.markdown" remote="vim-pathogen" revision="master"/>
-  <project path=".vim/README.markdown" name="blob/master/README.markdown" remote="vim-pathogen" revision="master"/>
+  <project path=".vim" name="vim-pathogen" remote="vim-pathogen" revision="master"/>
 
 </manifest>
