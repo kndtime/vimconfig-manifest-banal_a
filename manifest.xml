@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="vimconfig-manifest-banal_a"
+           fetch="https://github.com/kndtime/vimconfig-manifest-banal_a.git" />
+  <remote  name="vim-pathogen"
+           fetch="https://github.com/tpope/vim-pathogen.git" />
+
+  <default revision="master"
+           remote="vimconfig-manifest-banal_a"
+           sync-j="4" />
+
+  <project path=".vim" name="pathogen" remote="vim-pathogen" revision="master"/>
+</manifest>
