@@ -14,6 +14,6 @@
            sync-j="4" />
 
   <project path=".vim" name="vim-pathogen" remote="vim-pathogen"/>
-  <project path="bundle" name="vim-gitgutter" remote="vim-gitgutter"/>
+  <project path=".vim/bundle" name="vim-gitgutter" remote="vim-gitgutter"/>
   <project path="vimrc" name="vimrc-banal_a" remote="vimrc-banal_a"/>
 </manifest>
