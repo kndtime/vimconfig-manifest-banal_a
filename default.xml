@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="vimconfig-manifest-banal_a"
-           fetch="ssh://git@github.com:kndtime/vimconfig-manifest-banal_a.git" />
-
+           fetch="ssh://git@github.com:kndtime/vimconfig-manifest-banal_a.git" />9
   <remote  name="vim-pathogen"
            fetch="https://github.com/tpope/" />
-
+  <remote  name="vim-gitgutter"
+           fetch="https://github.com/airblade" />
   <default revision="master"
            remote="vimconfig-manifest-banal_a"
            sync-j="4" />
 
-  <project path=".vim" name="vim-pathogen" remote="vim-pathogen" revision="master"/>
+  <project path=".vim" name="vim-pathogen" remote="vim-pathogen"/>
+  <project path="bundle" name="vim-gitgutter" remote="vim-gitgutter"/>
 
 </manifest>
