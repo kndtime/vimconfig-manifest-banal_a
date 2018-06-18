@@ -5,7 +5,7 @@
            review="https://android-review.cri.epita.net" />
   <remote  name="vimrc-banal_a"
            fetch="https://github.com/kndtime/"
-           review="https://android-review.cri.epita.net/vimrc-banal_a" />
+           review="https://android-review.cri.epita.net" />
 
   <remote  name="vim-pathogen"
            fetch="https://github.com/tpope/" />
